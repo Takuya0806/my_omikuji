@@ -1,0 +1,50 @@
+body {
+    background: #efefef;
+    margin: 0 auto;
+    font-family: verdana, sans-serif;
+}
+
+header {
+    background: lightgray;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 2px 2px 1px #333;
+}
+
+#btn {
+    background: #ef454a;
+    width: 200px;
+    height: 200px;
+    margin: 30px auto 0;
+    border-radius: 50%;
+    text-align: center;
+    text-shadow: 2px 2px 1px #333;
+    font-size: 42px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 200px;
+    cursor: pointer;
+    /* x y blur color */
+    box-shadow: 0 10px 0 #d1483e;
+    /* テキストを選択されないようにする */
+    user-select: none;
+}
+
+#btn:hover  {
+    /* opacityプロパティで透明度を下げて少し薄くする */
+    opacity: 0.9;
+}
+
+/* ボタンが押し込まれたように見せるためのスタイル */
+#btn.pressed {
+    box-shadow: 0 5px 0 #d1483e;
+    margin-top: 35px;
+}
